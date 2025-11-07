@@ -1,0 +1,17 @@
+# --- Core RAG Framework ---
+langchain
+langchain-core
+langchain-community
+langchain-openai
+
+# --- Vector Store (Local) ---
+faiss-cpu
+
+# --- Document Loaders (for .md files) ---
+unstructured
+markdown
+
+# --- API Server ---
+fastapi
+uvicorn[standard]
+python-multipart
